@@ -12,7 +12,7 @@ export default function Navbar() {
     >
       <div className={styles.container}>
         <div className={styles.logo}>
-          <span className="text-gradient mono">DK</span>
+          <span className="text-gradient mono">Dinesh Karthik A</span>
         </div>
         <div className={styles.links}>
           <a href="#skills">Skills</a>

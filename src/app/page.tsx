@@ -6,6 +6,19 @@ export default function Home() {
   return (
     <main>
       <Hero />
+      
+      <section id="summary" style={{ paddingBottom: '0' }}>
+        <div className="glass-card" style={{ padding: '40px', borderLeft: '4px solid var(--primary)' }}>
+          <p style={{ fontSize: '18px', lineHeight: '1.8', color: 'var(--text-secondary)' }}>
+            I am a results-driven <span style={{ color: 'white' }}>Backend & DevOps Engineer</span> with a deep focus on building scalable, high-performance distributed systems. 
+            My expertise lies in designing <span style={{ color: 'white' }}>microservices architectures</span> that handle high concurrency, optimized via asynchronous patterns and robust caching strategies. 
+            I bridge the gap between development and operations by implementing sophisticated <span style={{ color: 'white' }}>CI/CD pipelines</span> and containerized deployments on AWS and GCP. 
+            With a strong foundation in <span style={{ color: 'white' }}>high-level system design</span>, I have successfully shipped multiple production-grade applications that prioritize reliability, security, and low latency performance. 
+            My goal is to engineer resilient infrastructure that scales seamlessly with user demand.
+          </p>
+        </div>
+      </section>
+
       <Skills />
       <Projects />
       
@@ -37,10 +50,6 @@ export default function Home() {
                 <li style={{ background: 'rgba(255,255,255,0.03)', padding: '12px', borderRadius: '8px', border: '1px solid var(--glass-border)' }}>
                   <p style={{ fontWeight: 600 }}>AWS Certified Cloud Practitioner</p>
                   <p style={{ fontSize: '14px', color: 'var(--text-secondary)' }}>Ongoing Certification (CLF-C02)</p>
-                </li>
-                <li style={{ background: 'rgba(255,255,255,0.03)', padding: '12px', borderRadius: '8px', border: '1px solid var(--glass-border)' }}>
-                  <p style={{ fontWeight: 600 }}>LeetCode</p>
-                  <p style={{ fontSize: '14px', color: 'var(--text-secondary)' }}>Strong Problem-Solving Practice</p>
                 </li>
               </ul>
             </div>

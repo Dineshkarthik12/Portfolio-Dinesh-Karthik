@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Server, Cloud, Brain, Code2 } from "lucide-react";
+import { Server, Cloud, Brain, Code2, Layers } from "lucide-react";
 import styles from "./Skills.module.css";
 
 const skillCategories = [
@@ -16,14 +16,24 @@ const skillCategories = [
     skills: ["AWS (EC2, Lambda, S3)", "Docker", "Kubernetes", "NGINX", "GitHub Actions", "CI/CD Pipelines", "GCP Cloud Run"]
   },
   {
-    title: "AI & Machine Learning",
-    icon: <Brain size={24} />,
-    skills: ["RAG Pipelines", "LLMs", "FAISS", "TensorFlow", "Transformers", "Scikit-learn", "MLOps"]
+    title: "System Architecture",
+    icon: <Layers size={24} />,
+    skills: ["Microservices", "System Design", "Scalability", "Concurrency", "Load Balancing", "API Gateway", "Event-Driven Design"]
   },
   {
-    title: "Core Proficiency",
+    title: "Frontend Engineering",
     icon: <Code2 size={24} />,
-    skills: ["Data Structures", "Algorithms", "System Design", "OS", "DBMS", "Java", "C++", "SQL"]
+    skills: ["HTML5", "CSS3", "JavaScript (ES6+)", "React.js", "Next.js", "TailwindCSS", "Framer Motion"]
+  },
+  {
+    title: "Tool Proficiency",
+    icon: <Code2 size={24} />,
+    skills: ["Git", "GitHub", "VS Code", "Swagger/OpenAPI", "Postman", "Docker Compose", "Shell Scripting"]
+  },
+  {
+    title: "Intelligent Systems",
+    icon: <Brain size={24} />,
+    skills: ["RAG Pipelines", "LLMs", "FAISS", "TensorFlow", "Transformers", "Computer Vision", "MLOps"]
   }
 ];
 

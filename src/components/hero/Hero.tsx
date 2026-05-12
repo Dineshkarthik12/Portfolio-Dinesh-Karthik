@@ -23,7 +23,7 @@ export default function Hero() {
         transition={{ duration: 0.5, delay: 0.1 }}
         className={styles.title}
       >
-        Crafting <span className="text-gradient">Scalable Systems</span> & AI Intelligence.
+        Crafting <span className="text-gradient">Scalable Systems</span> & Production Infrastructure.
       </motion.h1>
 
       <motion.p
@@ -32,8 +32,7 @@ export default function Hero() {
         transition={{ duration: 0.5, delay: 0.2 }}
         className={styles.description}
       >
-        I'm <span style={{ color: 'white', fontWeight: 600 }}>Dinesh Karthik A</span>, a Backend Developer 
-        specializing in high-performance microservices, RAG pipelines, and cloud-native system design.
+        Hi, I'm <span style={{ color: 'white', fontWeight: 600 }}>Dinesh Karthik</span>, a Backend & DevOps Engineer delivering scalable distributed systems, resilient cloud infrastructure, and production-grade platforms.
       </motion.p>
 
       <motion.div
@@ -46,10 +45,10 @@ export default function Hero() {
           View My Works <ArrowRight size={20} style={{ marginLeft: 8 }} />
         </a>
         <div style={{ display: 'flex', gap: '12px', alignItems: 'center', marginLeft: '12px' }}>
-          <a href="https://github.com/dineshkarthik12" target="_blank" className={styles.buttonSecondary} style={{ padding: '14px' }}>
+          <a href="https://github.com/Dineshkarthik12" target="_blank" className={styles.buttonSecondary} style={{ padding: '14px' }}>
             <Github size={24} />
           </a>
-          <a href="https://linkedin.com/in/DineshKarthik" target="_blank" className={styles.buttonSecondary} style={{ padding: '14px' }}>
+          <a href="https://www.linkedin.com/in/dinesh-karthik-2867a6264/" target="_blank" className={styles.buttonSecondary} style={{ padding: '14px' }}>
             <Linkedin size={24} />
           </a>
           <a href="mailto:dineshdk0412@gmail.com" className={styles.buttonSecondary} style={{ padding: '14px' }}>
